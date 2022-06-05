@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "nombre": "imagen n°0",
+        "stock": 3,
+        "precio":1500,
+        "img": "./img/mueble1.png"
+
+
+    },
+    {
+        "id":2,
+        "nombre": "imagen n°1",
+        "stock": 3,
+        "precio": 2300,
+        "img": "./img/mueble2.png"
+   
+    },
+    {
+        "id":3,
+        "nombre": "imagen n°2",
+        "stock": 20,
+        "precio": 1000,
+        "img": "./img/mueble3.png"
+    },
+    {
+        "id":4,
+        "nombre": "imagen n°3",
+        "stock": 1,
+        "precio": 5000,
+        "img": "./img/mueble4.png"
+    }
+
+]

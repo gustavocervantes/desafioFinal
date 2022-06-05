@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    margin-left: 2em;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.imgComic{
+    width: 200px;
+}
+.imgComicShop{
+    width: 125px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+}
+
+.cajita{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+}
+
+.cajaDolar{
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+}
+
+.imgBox{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+    border: 1px solid greenyellow;
+    margin-top: 30em;
+}
+
+.imgAbajoTamano{
+    width: 5em;
+}
+
+nav{
+    display: flex;
+}
+
+h1{
+    flex: 1;
+}
+
+.container{
+    position: relative;
+}
+
+#btnCarrito{
+    margin-top: 5px;
+    margin-right: 5px;
+    border: none;
+    background: linear-gradient(270deg,#83776b 0%,#d8328a 37.25%,#753872 100% );
+    padding: 10px 36px;
+    border-radius: 15px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Hubballi', cursive;
+    box-shadow: 10px 14px 18px rgba(0, 0, 0, 0.5);
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 20px 30px 25px rgba(255, 0, 0, 0.5);
+    left: 50%;
+    top: 5%;  
+    flex-direction: column;
+    background: linear-gradient(270deg,#83776b 0%,#d8328a 37.25%,#753872 100% );
+    visibility: hidden;
+    width: 60%;
+}
+
+
+.active{
+    visibility: visible;
+} 
+
+#Divcotizacion{
+    width: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.dolarHoy{
+    color: #d8328a;
+    border-radius: 1em;
+
+}
